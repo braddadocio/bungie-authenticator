@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+form label {
+    width: 8em;
+    display: inline-block;
+}
+
+textarea {
+    width: 100%;
+    height: 10em;
+}
