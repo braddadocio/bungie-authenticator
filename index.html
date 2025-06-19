@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bungie.net Authorization</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <p>Provide the following details from your Bungie.net Application settings. Note: the values here are only shared
+      with Bungie.</p>
+    <form onsubmit="return startAuthorization(event)">
+      <fieldset>
+        <label for="clientId">Client ID</label>
+        <input id="clientId" name="clientId" required size="20" />
+      </fieldset>
+      <fieldset>
+        <label for="clientSecret">Client Secret</label>
+        <input id="clientSecret" name="clientSecret" required size="60" />
+      </fieldset>
+      <button type="submit">Authorize</button>
+    </form>
+  </div>
+</body>
+
+</html>
